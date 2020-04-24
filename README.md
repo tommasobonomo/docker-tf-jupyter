@@ -6,6 +6,8 @@ with on top an upgrade of `pip` and the installation of JupyterLab.
 
 ## Docker
 
+[Link on DockerHub](https://hub.docker.com/repository/docker/tommasobonomo/tf-jupyterlab)
+
 ```bash
 docker run -p 8888:8888 tommasobonomo/tf-jupyterlab jupyter lab --allow-root --ip=0.0.0.0  
 ```
