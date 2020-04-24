@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 RUN pip install -U pip
 
-RUN pip install jupyterlab
+RUN pip install jupyterlab pandas numpy scikit-learn altair
 
 EXPOSE 8888
