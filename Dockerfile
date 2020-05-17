@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu-py3
+FROM tensorflow/tensorflow:latest-gpu
 
 WORKDIR /usr/src/app
 
@@ -13,6 +13,7 @@ RUN pip install \
     numpy \
     scikit-learn \
     altair \
+    matplotlib \
     pydot \
     graphviz
 
