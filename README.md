@@ -1,8 +1,8 @@
 # TensorFlow + Jupyter Docker
 A repo that provides the Dockerfile of a container with the latest TensorFlow and Jupyter Lab
 
-It's based on the Docekrfile [`tensorflow/tensorflow:latest-gpu-py3`](https://hub.docker.com/layers/tensorflow/tensorflow/latest-gpu-py3/images/sha256-1010e051dde4a9b62532a80f4a9a619013eafc78491542d5ef5da796cc2697ae?context=explore),
-with on top an upgrade of `pip`, the installation of JupyterLab and other useful packages, plus the installation of graphviz.
+It's based on the Docekrfile [`tensorflow/tensorflow:latest-gpu`](https://hub.docker.com/layers/tensorflow/tensorflow/latest-gpu/images/sha256-3f8f06cdfbc09c54568f191bbc54419b348ecc08dc5e031a53c22c6bba0a252e?context=explore),
+with on top an upgrade of `pip`, the installation of JupyterLab and other useful packages, plus the installation of git and graphviz.
 
 ## Docker
 
