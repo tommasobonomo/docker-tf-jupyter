@@ -17,6 +17,7 @@ RUN pip install \
     altair \
     matplotlib \
     pydot \
-    graphviz
+    graphviz \
+    nltk
 
 EXPOSE 8888
